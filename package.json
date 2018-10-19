@@ -1,0 +1,24 @@
+{
+  "name": "easy-pie",
+  "version": "1.0.1",
+  "description": "不同角度创造自定义元素",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aisriver/easy-pie.git"
+  },
+  "keywords": [
+    "easy",
+    "pie",
+    "dom"
+  ],
+  "author": "Jared",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aisriver/easy-pie/issues"
+  },
+  "homepage": "https://github.com/aisriver/easy-pie#readme"
+}
