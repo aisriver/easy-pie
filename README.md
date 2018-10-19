@@ -12,16 +12,14 @@ import EasyPie from 'easy-pie';
 - use in react
 
 <pre>
-    <xmp>
-        <EasyPie
-            createElement={React.createElement}
-            width="150px"
-            height="150px"
-            percent="45"
-            backColor="#655"
-            percentColor="yellowgreen"
-        />
-    </xmp>
+    &ltEasyPie
+        createElement={React.createElement}
+        width="150px"
+        height="150px"
+        percent="45"
+        backColor="#655"
+        percentColor="yellowgreen"
+    /&gt
 
     react 通过jsx创建自定义组件并导出html模版，为了借用它这种工作模式，需要把React.createElement方法传入进来  否则返回空内容
 
@@ -31,16 +29,14 @@ import EasyPie from 'easy-pie';
 - use in 其他框架
 
 <pre>
-    <xmp>
-        <easy-pie
-            width="150px"
-            height="150px"
-            percent="45"
-            backColor="#655"
-            percentColor="yellowgreen"
-        >
-    </xmp>
-    </easy-pie>
+    &lteasy-pie
+        width="150px"
+        height="150px"
+        percent="45"
+        backColor="#655"
+        percentColor="yellowgreen"
+    &gt
+    &lt/easy-pie&gt
 
     在引人组件的时候同时创建了自定义元素 easy-pie 直接在html传入对应属性即可
 </pre>
