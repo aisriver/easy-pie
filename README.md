@@ -5,6 +5,7 @@
 ## step 1
 - npm install -g cnpm --registry=https://registry.npm.taobao.org
 - cnpm install easy-pie --save
+- 或者使用 yarn add easy-pie
 
 ## step 2
 import EasyPie from 'easy-pie';
@@ -39,7 +40,11 @@ import EasyPie from 'easy-pie';
     &lt/easy-pie&gt
 
     在引人组件的时候同时创建了自定义元素 easy-pie 直接在html传入对应属性即可
+
 </pre>
+
+有什么好的想法，欢迎一起成长交流
+WeChat：mrliaojun
 
 ### github
 [Jared](https://github.com/aisriver/easy-pie.git)
